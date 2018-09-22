@@ -25,3 +25,10 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Fix for Experimental Decorator Error
+https://github.com/Microsoft/vscode/issues/45071
+In VSCode, Go to File => Preferences => Settings (or Control+comma) and it will open the User Settings file. Add "javascript.implicitProjectConfig.experimentalDecorators": true to the file and it should fix it. It did for me.
+
+## Link for this tutorial
+https://www.smashingmagazine.com/2018/09/pwa-angular-6/
